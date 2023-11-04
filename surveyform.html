@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Page</title>
+    <style>
+        /* Your CSS styles here */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Survey Page</h1>
+    </header>
+    <form>
+        <fieldset>
+            <legend>Survey Questions</legend>
+            <div class="question">
+                <p>Question 1: How would you rate your overall mental well-being?</p>
+                <label for="mentalWellBeing">
+                    <select id="mentalWellBeing" name="mentalWellBeing">
+                        <option value="Excellent">Excellent</option>
+                        <option value="Good">Good</option>
+                        <option value="Average">Average</option>
+                        <option value="BelowAverage">Below Average</option>
+                        <option value="Poor">Poor</option>
+                    </select>
+                </label>
+            </div>
+            <div class="question">
+                <p>Question 2: How often do you feel stressed in your daily life?</p>
+                <label for="stressFrequency">
+                    <select id="stressFrequency" name="stressFrequency">
+                        <option value="VeryRarely">Very Rarely</option>
+                        <option value="Rarely">Rarely</option>
+                        <option value="Sometimes">Sometimes</option>
+                        <option value="Often">Often</option>
+                        <option value="VeryOften">Very Often</option>
+                    </select>
+                </label>
+            </div>
+            <div class="question">
+                <p>Question 3: Have you sought help or counseling for mental health concerns in the past year?</p>
+                <label for="helpSought">
+                    <select id="helpSought" name="helpSought">
+                        <option value="YesSoughtHelp">Yes, I've sought help</option>
+                        <option value="NotConsidered">No, but I've considered it</option>
+                        <option value="NotConsideredNotSought">No, I haven't considered it</option>
+                        <option value="PreferNotToAnswer">I prefer not to answer</option>
+                    </select>
+                </label>
+            </div>
+            <div class="question">
+                <p>Question 4: Do you feel supported by friends and family in managing your mental health?</p>
+                <label for="supportFeelings">
+                    <select id="supportFeelings" name="supportFeelings">
+                        <option value="VerySupported">Very Supported</option>
+                        <option value="SomewhatSupported">Somewhat Supported</option>
+                        <option value="Neutral">Neutral</option>
+                        <option value="SomewhatUnsupported">Somewhat Unsupported</option>
+                        <option value="VeryUnsupported">Very Unsupported</option>
+                    </select>
+                </label>
+            </div>
+        </fieldset>
+        <input type="submit" class="submit-button" value="Submit">
+    </form>
+</body>
+</html>
