@@ -1,0 +1,21 @@
+/* CSS to set equal dimensions for carousel images */
+.carousel-item img {
+    height: 300px; /* Adjust the height as needed */
+    display: block;
+    margin: 0 auto;
+}
+
+/* CSS to adjust the carousel caption layout */
+.carousel-caption {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6); /* Background color with opacity */
+    padding: 15px; /* Padding for the caption */
+    color: #fff; /* Text color */
+    border-radius: 10px; /* Rounded corners for the caption */
+}
+
+.carousel-caption h3 {
+    margin-top: 10px;
+}
+
+/* Additional CSS can be added here for further styling */
